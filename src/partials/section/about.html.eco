@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p itemprop="description">A DrupalCamp Floripa 2013 é a primeira edição do encontro que irá reunir drupaleiros de várias regiões do Brasil com o intuito de trocar experiências, gerar conhecimento e negócios em torna da plataforma Drupal.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p>A proposta deste evento é ir além do modelo convencional de conferência e incentivar a inovação através palestras, workshops, sprints de código e de um open space proporcionando atividades mão-na-massa e um espaço aberto para que todos participem com discussões, atividades e etc sendo decididas na hora pelos participantes interessados.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p>O evento será realizado na seda da <a href="http://taller.net.br">Taller</a>, então não esqueça de levar roupa de banho para aproveitar a piscina!</p>

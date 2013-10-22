@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "DrupalCamp Floripa",
+      description: "O Drupal Camp Floripa é um evento de tecnologia com foco em Drupal.",
+      date: "15 e 16 de Novembro",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "R$30",
+      venue: "Taller",
+      address: "R. Laurindo Januário da Silveira, 1297 - Lagoa da Conceição",
+      city: "Florianópolis",
+      state: "Santa Catarina"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Inscreva-se",
+        link: "https://drupalcampfloripa2013.eventbrite.pt/"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //     repository: "https://github.com/braziljs/conf-boilerplate"
+    // },
 
     // Site info
     site: {
-      theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      theme: "dcfloripa",
+      url: "floripa2013.drupal.org.br",
+      googleanalytics: ""
     },
 
     // Active sections on the website
@@ -43,26 +43,26 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
-      'sponsors',
+      // 'speakers',
+      // 'schedule',
+      // 'sponsors',
       'partners'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre o evento",
+      location: "Local",
+      speakers: "Palestrantes",
+      schedule: "Programação",
+      sponsors: "Patrocínio",
+      partners: "Realiação",
+      // contact: "Contato"
     },
 
     // The entire schedule
-    schedule: [
+    /*schedule: [
       {
         name: "Check-in / Breakfast",
         time: "9h00"
@@ -165,23 +165,23 @@ module.exports = {
           time: "17h00"
         }
       }
-    ],
+    ],*/
 
     // List of Sponsors
-    sponsors: [
+    /*sponsors: [
       {
         name: "Eventick",
         logo: "themes/yellow-swan/img/sponsor.png",
         url: "http://eventick.com.br"
       }
-    ],
+    ],*/
 
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Taller",
+        logo: "themes/dcfloripa/img/taller_logo.png",
+        url: "http://taller.net.br"
       }
     ],
 
