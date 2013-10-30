@@ -1,6 +1,19 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">A DrupalCamp Floripa 2013 é a primeira edição do encontro que irá reunir drupaleiros de várias regiões do Brasil com o intuito de trocar experiências, gerar conhecimento e negócios em torna da plataforma Drupal.</p>
 
-<p>A proposta deste evento é ir além do modelo convencional de conferência e incentivar a inovação através palestras, workshops, sprints de código e de um open space proporcionando atividades mão-na-massa e um espaço aberto para que todos participem com discussões, atividades e etc sendo decididas na hora pelos participantes interessados.</p>
+<p itemprop="description">A DrupalCamp Floripa 2013 é um evento dedicado ao compartilhamento de conhecimentos em torno do Drupal com o intuito de reunir a comunidade, fomentar a troca de experiências, gerar conhecimento e negócios em torno da plataforma.</p>
 
-<p>O evento será realizado na seda da <a href="http://taller.net.br">Taller</a>, então não esqueça de levar roupa de banho para aproveitar a piscina!</p>
+<p>Nesta primeira edição do encontro teremos a presença de drupaleiros de várias regiões do Brasil.</p>
+
+<p>O evento terá inicio 15 de Novembro às 14h e término previsto para aproximadamente às 19h. Continuando no dia 16 de Novembro no mesmo horário.</p>
+
+<p>Todos os interessados estão convidados a participar deste evento de alto nível que irá abordar diversos temas relacionados ao Drupal com palestras voltadas tanto para iniciantes quanto para profissionais já experiêntes.</p>
+
+<p>A proposta deste evento é ir além do modelo convencional de conferência e incentivar a inovação através palestras, workshops, sprints de código e de um open space proporcionando maior intereação entre os participantes.</p>
+
+<p>A ideia do Open Space é disponibilizar um espaço livre para que todos participem através de discussões e demais atividades que sejam propostas na hora pelos próprios participantes.</p>
+
+<p>A DrupalCamp Floripa será realizado na sede da <a href="http://taller.net.br">Taller</a>, então não esqueça de levar roupa de banho para aproveitar a piscina!</p>
+
+<p>Para mais detalhes, veja a programação do evento logo abaixo.</p>
+
+<p>Não esqueça de seguir a <a href="http://twitter.com/dcampfloripa">@dcampfloripa</a> no Twitter e também curtir <a href="http://www.facebook.com/drupalcampfloripa">nossa página no facebook</a>.</p>
