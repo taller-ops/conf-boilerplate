@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
-<p>Caso tenha alguma duvida entre em contato com a gente atravéz do formularioa abaixo.</p>
+<p>Caso tenha alguma duvida entre em contato com a gente através do formularioa abaixo.</p>
 <form method="post" action="contact.php" id="form" class="form">
   <div class="control-group control-group-name">
     <label for="name">Nome</label>
