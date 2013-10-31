@@ -119,7 +119,7 @@ module.exports = {
       {
         name: "Nick Vidal",
         photo: "themes/dcfloripa/img/nick.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Engenheiro da Computação pela UFRGS (Universidade Federal do Rio Grande do Sul). Bastante ativo na comunidade de Software Livre e da comunidade Web, tendo participado como palestrante, voluntário e organizador de diversos eventos, tais como FISL, Latinoware, Consegi e World Wide Web Conference 2013. Membro da comunidade Drupal, tendo participado na DrupalCamp São Paulo, DrupalCamp Porto Alegre e DrupalCon Portland.",
         // company: "",
         link: {
           href: "http://twitter.com/nickvidal",
