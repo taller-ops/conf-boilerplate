@@ -121,10 +121,10 @@ module.exports = {
         photo: "themes/dcfloripa/img/nick.jpg",
         bio: "Engenheiro da Computação pela UFRGS (Universidade Federal do Rio Grande do Sul). Bastante ativo na comunidade de Software Livre e da comunidade Web, tendo participado como palestrante, voluntário e organizador de diversos eventos, tais como FISL, Latinoware, Consegi e World Wide Web Conference 2013. Membro da comunidade Drupal, tendo participado na DrupalCamp São Paulo, DrupalCamp Porto Alegre e DrupalCon Portland.",
         // company: "",
-        // link: {
-        //   href: "http://twitter.com/nickvidal",
-        //   text: "@nickvidal"
-        // },
+        link: {
+          href: "http://twitter.com/nickvidal",
+          text: "@nickvidal"
+        },
         presentation: {
           title: "MailMaid: integrando email e a Web para uma colaboração ágil.",
           description: "MailMaid é uma distribuição Drupal que integra email e a Web para facilitar a colaboração. A vantagem do email é que ele é um meio de comunicação extremamente popular e fácil de usar. Porém, é difícil gerenciar um projeto via email, principalmente quanto existem diversas threads e pessoas. É neste ponto que a integração com a Web torna-se vantajosa.",
@@ -135,15 +135,31 @@ module.exports = {
         name: "Handrus Stephan Nogueira",
         photo: "themes/dcfloripa/img/handrus.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        // company: "Ci&T",
-        // link: {
-        //   href: "http://github.com/handrus",
-        //   text: "@handrus"
-        // },
+        company: "Ci&T",
+        link: {
+          href: "http://twitter.com/handrus",
+          text: "@handrus"
+        },
         presentation: {
           title: "Testes de performance",
           description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
           time: "19h00"
+        }
+      }
+      {
+        name: "Rafael Caceres",
+        photo: "themes/dcfloripa/img/rafael.png",
+        bio: "Graduado em ciências da computação, trabalha com web desde 2001 e com Drupal, desde 2008. Evangelizador Lean e Ágil, é Co-Fundador e Diretor de Estratégias da Taller. Desenvolvedor e consultor, trabalhou em alguns dos maiores sites brasileiros de Drupal.",
+        company: "Taller",
+        link: {
+          href: "http://github.com/rafaelcaceres",
+          text: "@rafaelcaceres"
+        },
+        presentation: {
+          title: "Entity API, drupal do jeito certo",
+          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, com
+o criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
+          time: "3h"
         }
       }
     ],
