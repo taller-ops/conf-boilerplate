@@ -1,7 +1,7 @@
 var geocoder,
     map,
     google,
-    icon = 'themes/dcfloripa/img/marker-default.png';
+    icon = '/themes/dcfloripa/img/marker-default.png';
 
 function initialize() {
     'use strict';
