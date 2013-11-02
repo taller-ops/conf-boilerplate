@@ -145,7 +145,7 @@ module.exports = {
           description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
           time: "19h00"
         }
-      }
+      },
       {
         name: "Rafael Caceres",
         photo: "themes/dcfloripa/img/rafael.png",
@@ -157,8 +157,7 @@ module.exports = {
         },
         presentation: {
           title: "Entity API, drupal do jeito certo",
-          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, com
-o criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
+          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
           time: "3h"
         }
       }
