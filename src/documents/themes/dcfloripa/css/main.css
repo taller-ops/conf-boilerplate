@@ -342,7 +342,7 @@ nav {
   letter-spacing: -0.04em;
 }
 .tagline {
-  margin-bottom: 50px;
+  margin: 20px 0 50px;
   font-size: 2em;
   letter-spacing: -0.02em;
 }
@@ -373,6 +373,11 @@ nav {
 .btn:hover,
 .btn:focus {
   top: 0;
+}
+.header .wrapper {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
 }
 /* =============================================================================
    ABOUT
