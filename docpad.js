@@ -58,69 +58,72 @@ module.exports = {
       schedule: "Programação",
       sponsors: "Patrocínio",
       partners: "Realização",
-      contact: "Contato"
+      contact: "Contato",
+      time: "Horário",
+      slot: "Slot",
+      description: "Descrição"
     },
 
     // The entire schedule
     schedule: [
       {
         name: "Check-in",
-        time: "13h40"
+        time: "15/11 - 13h40"
       },
       {
         name: "Leonardo Silva",
         photo: "themes/dcfloripa/img/xulispa.jpg",
         bio: "Usa o Drupal como ferramenta de ampliação dos trabalhos desde 2006 e em 2008 se afirmou desenvolvedor web. Também integra a equipe de mantenedores do site Drupal Brasil. Formado em música, teatro, circo e produção cultural, é entusiasta em novas tecnologias e software livre.",
-        // company: "Taller Web Solutions",
-        // link: {
-        //   href: "http://github.com/xulispa",
-        //   text: "@xulispa"
-        // },
+        company: "Taller",
+        link: {
+          href: "http://github.com/xulispa",
+          text: "@xulispa"
+        },
         presentation: {
           title: "Drupal Zero - Como fazer um blog ou site institucional sem saber programar!",
           description: "Voltada para quem não conhece o Drupal, a palestra aborda os conceitos primários, o que é, como funciona, requisitos para instalação e uso e estrutura de arquivos. Durante a apresentação é feito um site institucional, com blog e formulário de contato, de maneira interativa, onde os participantes têm a oportunidade de aprender, com a mão na massa, a fazer o site sem precisar saber programação.",
-          time: "14h00"
+          time: "15/11 - 14h00"
         }
       },
       {
         name: "Rodrigo Panchniack",
         photo: "themes/dcfloripa/img/rodrigo.jpg",
-        bio: "Coder desde os 8 anos de idade e aprendiz errático de Perl e Drupal. Bacharel em Filosofia (2003) e Mestre em Linguística (2005) pela Universidade Federal de Santa Catarina. Foi estagiário de doutorado na Universidade de Lisboa (2006-2007) e professor em cursos públicos e privados, para graduação e pós. Gosta dos coelhos, da semântica lexical e da expressão back end, no bom sentido. As vezes despeja códigos no drupal.org e no cpan.org. Apelidado carinhosamente de Panicat!",
-        // company: "Taller Web Solutions",
-        // link: {
-        //   href: "http://twitter.com/panchniack",
-        //   text: "@panchniack"
-        // },
+        bio: "Coder desde os 8 anos de idade e aprendiz errátido de Perl e Drupal. Bacharel em Filosofia (2003) e Mestre em Linguística (2005) pela Universidade Federal de Santa Catarina. Foi estagiário de doutorado no Grupo de Computação do Conhecimento Léxico-gramatical da Universidade de Lisboa (2006-2007) e professor em cursos públicos e privados, para graduação e pós. Gosta dos coelhos, das palavras e da expressão back end, no bom sentido. De vez em quando, despeja códigos no drupal.org e no cpan.org.",
+        company: "Taller",
+        link: {
+          href: "http://www.cce.ufsc.br/~fernandesrp/",
+          text: "pagina pessoal"
+        },
         presentation: {
           title: "Live Test",
           description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
-          time: "15h00"
+          time: "15/11 - 15h00"
         }
       },
       {
         name: "Coffee-break",
-        time: "16h00"
+        time: "15/11 - 16h00"
       },
       {
         name: "Leandro Nunes",
         photo: "themes/dcfloripa/img/leandro.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        // company: "Itelios",
-        // link: {
-        //   href: "http://twitter.com/littlechuck",
-        //   text: "@littlechuck"
-        // },
+        bio: "",
+        company: "Itelios",
+        link: {
+          href: "https://twitter.com/lnunesbr",
+          text: "@lnunesbr"
+        },
         presentation: {
           title: "Cache no Drupal",
           description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
-          time: "17h00"
+          time: "15/11 - 17h00"
         }
       },
       {
         name: "Nick Vidal",
         photo: "themes/dcfloripa/img/nick.jpg",
         bio: "Engenheiro da Computação pela UFRGS (Universidade Federal do Rio Grande do Sul). Bastante ativo na comunidade de Software Livre e da comunidade Web, tendo participado como palestrante, voluntário e organizador de diversos eventos, tais como FISL, Latinoware, Consegi e World Wide Web Conference 2013. Membro da comunidade Drupal, tendo participado na DrupalCamp São Paulo, DrupalCamp Porto Alegre e DrupalCon Portland.",
-        // company: "",
+        company: "eCohere",
         link: {
           href: "http://twitter.com/nickvidal",
           text: "@nickvidal"
@@ -128,13 +131,13 @@ module.exports = {
         presentation: {
           title: "MailMaid: integrando email e a Web para uma colaboração ágil.",
           description: "MailMaid é uma distribuição Drupal que integra email e a Web para facilitar a colaboração. A vantagem do email é que ele é um meio de comunicação extremamente popular e fácil de usar. Porém, é difícil gerenciar um projeto via email, principalmente quanto existem diversas threads e pessoas. É neste ponto que a integração com a Web torna-se vantajosa.",
-          time: "18h00"
+          time: "15/11 - 18h00"
         }
       },
       {
         name: "Handrus Stephan Nogueira",
         photo: "themes/dcfloripa/img/handrus.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "",
         company: "Ci&T",
         link: {
           href: "http://twitter.com/handrus",
@@ -143,7 +146,7 @@ module.exports = {
         presentation: {
           title: "Testes de performance",
           description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
-          time: "19h00"
+          time: "15/11 - 19h00"
         }
       },
       {
@@ -158,7 +161,22 @@ module.exports = {
         presentation: {
           title: "Entity API, drupal do jeito certo",
           description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
-          time: "3h"
+          time: "15/11 - 15h às 18h"
+        }
+      },
+      {
+        name: "Sebastian Ferrari",
+        photo: "themes/dcfloripa/img/sebas.jpg",
+        bio: "Desenvolvedor Web Drupal desde 2005. Especializado em criação e consultoria de portais de muita audiência e com grande quantidade de conteúdo usando Drupal como CMS e Framework. Membro da comunidade Drupal desde 2009 como \"Organization Member\", onde contribui com módulos e patches para melhorar ou corrigir módulos de outros contribuidores.",
+        company: "Taller",
+        link: {
+          href: "https://twitter.com/sebas5384",
+          text: "@sebas5384"
+        },
+        presentation: {
+          title: "Desenvolvimento Drupal em equipe",
+          description: "",
+          time: "16/11 - 15h às 18h"
         }
       }
     ],
@@ -166,9 +184,9 @@ module.exports = {
     // List of Sponsors
     /*sponsors: [
       {
-        name: "Eventick",
+        name: "",
         logo: "themes/dcfloripa/img/sponsor.png",
-        url: "http://eventick.com.br"
+        url: "http://example.com"
       }
     ],*/
 
