@@ -10,7 +10,7 @@ function initialize() {
 
     var latlng = new google.maps.LatLng(0, 0),
         myOptions = {
-            zoom: 16,
+            zoom: 14,
             center: latlng,
             scrollwheel: false,
             streetViewControl: true,

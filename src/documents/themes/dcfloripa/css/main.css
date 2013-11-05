@@ -333,7 +333,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 14% 0 25%;
+  padding: 12% 0 20%;
   text-align: center;
 }
 .logo-name {
@@ -408,6 +408,7 @@ nav {
   padding-top: 10px;
   font-size: 2em;
   margin-bottom: 1em;
+  line-height: 2em;
 }
 .speech-time {
   font-size: 18px;
