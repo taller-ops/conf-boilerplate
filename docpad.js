@@ -137,7 +137,7 @@ module.exports = {
       {
         name: "Handrus Stephan Nogueira",
         photo: "themes/dcfloripa/img/handrus.jpg",
-        bio: "",
+        bio: "Apaixonado por web e open-source, trabalha com suas duas paixões a 10 anos sendo 6 deles com metodologias ágeis.Evangelista de testes automatizados, Drupal e de metodologias ágeis atualmente trabalha como Arquiteto de Softwares na CI&T, empresa Brasileira com presença global.",
         company: "Ci&T",
         link: {
           href: "http://twitter.com/handrus",
