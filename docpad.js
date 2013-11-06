@@ -82,7 +82,7 @@ module.exports = {
         presentation: {
           title: "Drupal Zero - Como fazer um blog ou site institucional sem saber programar!",
           description: "Voltada para quem não conhece o Drupal, a palestra aborda os conceitos primários, o que é, como funciona, requisitos para instalação e uso e estrutura de arquivos. Durante a apresentação é feito um site institucional, com blog e formulário de contato, de maneira interativa, onde os participantes têm a oportunidade de aprender, com a mão na massa, a fazer o site sem precisar saber programação.",
-          time: "15/11 - 14h00"
+          time: "TBC"
         }
       },
       {
@@ -97,17 +97,17 @@ module.exports = {
         presentation: {
           title: "Live Test",
           description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
-          time: "15/11 - 15h00"
+          time: "TBC"
         }
       },
-      {
-        name: "Coffee-break",
-        time: "15/11 - 16h00"
-      },
+      // {
+      //   name: "Coffee-break",
+      //   time: "15/11 - "
+      // },
       {
         name: "Leandro Nunes",
         photo: "themes/dcfloripa/img/leandro.jpg",
-        bio: "",
+        bio: "Trabalha com web há longos anos, é entusiasta de software livre e é apaixonado por drupal. Já minitrou palestras em Drupalcamps pela américa latina, e contribui com a comunidade Drupal através de módulos, patches e traduções. Santista fanático, gosta de video games e de programar.",
         company: "Itelios",
         link: {
           href: "https://twitter.com/lnunesbr",
@@ -116,7 +116,7 @@ module.exports = {
         presentation: {
           title: "Cache no Drupal",
           description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
-          time: "15/11 - 17h00"
+          time: "TBC"
         }
       },
       {
@@ -131,7 +131,7 @@ module.exports = {
         presentation: {
           title: "MailMaid: integrando email e a Web para uma colaboração ágil.",
           description: "MailMaid é uma distribuição Drupal que integra email e a Web para facilitar a colaboração. A vantagem do email é que ele é um meio de comunicação extremamente popular e fácil de usar. Porém, é difícil gerenciar um projeto via email, principalmente quanto existem diversas threads e pessoas. É neste ponto que a integração com a Web torna-se vantajosa.",
-          time: "15/11 - 18h00"
+          time: "TBC"
         }
       },
       {
@@ -146,7 +146,22 @@ module.exports = {
         presentation: {
           title: "Testes de performance",
           description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
-          time: "15/11 - 19h00"
+          time: "TBC"
+        }
+      },
+      {
+        name: "Vinicius Freitas",
+        photo: "themes/dcfloripa/img/vini.jpg",
+        bio: "",
+        company: "Taller",
+        // link: {
+        //   href: "",
+        //   text: ""
+        // },
+        presentation: {
+          title: "Proximity Search com Drupal, Search API, Solr e Google Places",
+          description: "",
+          time: "TBC"
         }
       },
       {
