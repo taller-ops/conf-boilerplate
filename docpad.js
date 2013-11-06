@@ -123,7 +123,7 @@ module.exports = {
         name: "Nick Vidal",
         photo: "themes/dcfloripa/img/nick.jpg",
         bio: "Engenheiro da Computação pela UFRGS (Universidade Federal do Rio Grande do Sul). Bastante ativo na comunidade de Software Livre e da comunidade Web, tendo participado como palestrante, voluntário e organizador de diversos eventos, tais como FISL, Latinoware, Consegi e World Wide Web Conference 2013. Membro da comunidade Drupal, tendo participado na DrupalCamp São Paulo, DrupalCamp Porto Alegre e DrupalCon Portland.",
-        company: "eCohere",
+        company: "MailMaid",
         link: {
           href: "http://twitter.com/nickvidal",
           text: "@nickvidal"
