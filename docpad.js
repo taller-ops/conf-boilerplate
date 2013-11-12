@@ -82,7 +82,7 @@ module.exports = {
         presentation: {
           title: "Drupal Zero - Como fazer um blog ou site institucional sem saber programar!",
           description: "Voltada para quem não conhece o Drupal, a palestra aborda os conceitos primários, o que é, como funciona, requisitos para instalação e uso e estrutura de arquivos. Durante a apresentação é feito um site institucional, com blog e formulário de contato, de maneira interativa, onde os participantes têm a oportunidade de aprender, com a mão na massa, a fazer o site sem precisar saber programação.",
-          time: "TBC"
+          time: "15/11 - 14h"
         }
       },
       {
@@ -97,13 +97,13 @@ module.exports = {
         presentation: {
           title: "Live Test",
           description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
-          time: "TBC"
+          time: "15/11 - 15h30"
         }
       },
-      // {
-      //   name: "Coffee-break",
-      //   time: "15/11 - "
-      // },
+      {
+        name: "Coffee-break",
+        time: "15/11 - 17h"
+      },
       {
         name: "Leandro Nunes",
         photo: "themes/dcfloripa/img/leandro.jpg",
@@ -116,52 +116,7 @@ module.exports = {
         presentation: {
           title: "Cache no Drupal",
           description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
-          time: "TBC"
-        }
-      },
-      {
-        name: "Nick Vidal",
-        photo: "themes/dcfloripa/img/nick.jpg",
-        bio: "Engenheiro da Computação pela UFRGS (Universidade Federal do Rio Grande do Sul). Bastante ativo na comunidade de Software Livre e da comunidade Web, tendo participado como palestrante, voluntário e organizador de diversos eventos, tais como FISL, Latinoware, Consegi e World Wide Web Conference 2013. Membro da comunidade Drupal, tendo participado na DrupalCamp São Paulo, DrupalCamp Porto Alegre e DrupalCon Portland.",
-        company: "MailMaid",
-        link: {
-          href: "http://twitter.com/nickvidal",
-          text: "@nickvidal"
-        },
-        presentation: {
-          title: "MailMaid: integrando email e a Web para uma colaboração ágil.",
-          description: "MailMaid é uma distribuição Drupal que integra email e a Web para facilitar a colaboração. A vantagem do email é que ele é um meio de comunicação extremamente popular e fácil de usar. Porém, é difícil gerenciar um projeto via email, principalmente quanto existem diversas threads e pessoas. É neste ponto que a integração com a Web torna-se vantajosa.",
-          time: "TBC"
-        }
-      },
-      {
-        name: "Handrus Stephan Nogueira",
-        photo: "themes/dcfloripa/img/handrus.jpg",
-        bio: "Apaixonado por web e open-source, trabalha com suas duas paixões a 10 anos sendo 6 deles com metodologias ágeis.Evangelista de testes automatizados, Drupal e de metodologias ágeis atualmente trabalha como Arquiteto de Softwares na CI&T, empresa Brasileira com presença global.",
-        company: "Ci&T",
-        link: {
-          href: "http://twitter.com/handrus",
-          text: "@handrus"
-        },
-        presentation: {
-          title: "Testes de performance",
-          description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
-          time: "TBC"
-        }
-      },
-      {
-        name: "Vinicius Freitas",
-        photo: "themes/dcfloripa/img/vini.jpg",
-        bio: "",
-        company: "Taller",
-        // link: {
-        //   href: "",
-        //   text: ""
-        // },
-        presentation: {
-          title: "Proximity Search com Drupal, Search API, Solr e Google Places",
-          description: "",
-          time: "TBC"
+          time: "15/11 - 17h30"
         }
       },
       {
@@ -180,6 +135,63 @@ module.exports = {
         }
       },
       {
+        name: "Encerramento",
+        time: "15/11 - 19h"
+      },
+      {
+        name: "Check-in",
+        time: "16/11 - 13h40"
+      },
+      {
+        name: "Nick Vidal",
+        photo: "themes/dcfloripa/img/nick.jpg",
+        bio: "Engenheiro da Computação pela UFRGS (Universidade Federal do Rio Grande do Sul). Bastante ativo na comunidade de Software Livre e da comunidade Web, tendo participado como palestrante, voluntário e organizador de diversos eventos, tais como FISL, Latinoware, Consegi e World Wide Web Conference 2013. Membro da comunidade Drupal, tendo participado na DrupalCamp São Paulo, DrupalCamp Porto Alegre e DrupalCon Portland.",
+        company: "MailMaid",
+        link: {
+          href: "http://twitter.com/nickvidal",
+          text: "@nickvidal"
+        },
+        presentation: {
+          title: "MailMaid: integrando email e a Web para uma colaboração ágil.",
+          description: "MailMaid é uma distribuição Drupal que integra email e a Web para facilitar a colaboração. A vantagem do email é que ele é um meio de comunicação extremamente popular e fácil de usar. Porém, é difícil gerenciar um projeto via email, principalmente quanto existem diversas threads e pessoas. É neste ponto que a integração com a Web torna-se vantajosa.",
+          time: "16/11 - 14h"
+        }
+      },
+      {
+        name: "Handrus Stephan Nogueira",
+        photo: "themes/dcfloripa/img/handrus.jpg",
+        bio: "Apaixonado por web e open-source, trabalha com suas duas paixões a 10 anos sendo 6 deles com metodologias ágeis.Evangelista de testes automatizados, Drupal e de metodologias ágeis atualmente trabalha como Arquiteto de Softwares na CI&T, empresa Brasileira com presença global.",
+        company: "Ci&T",
+        link: {
+          href: "http://twitter.com/handrus",
+          text: "@handrus"
+        },
+        presentation: {
+          title: "Testes de performance",
+          description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
+          time: "16/11 - 15h30"
+        }
+      },
+      {
+        name: "Coffee-break",
+        time: "16/11 - 17h"
+      },
+      {
+        name: "Vinicius Freitas",
+        photo: "themes/dcfloripa/img/vini.jpg",
+        bio: "Gosta de software, pessoas e negócios. Especificamente, de como o software pode ajudar pessoas em seus negócios. Isso o levou a estudar Sistemas de Informação e logo a entrar no mundo da web. Depois de quatro projetos no primeiro emprego, juntou os esforços com outros três amigos que se dedicam ao conceito de uma \"empresa ágil\" e criar \"killer web apps\". É um geek empreendedor viciado em soluções.",
+        company: "Taller",
+        // link: {
+        //   href: "",
+        //   text: ""
+        // },
+        presentation: {
+          title: "Proximity Search com Drupal, Search API, Solr e Google Places",
+          description: "",
+          time: "16/11 - 17h30"
+        }
+      },
+      {
         name: "Sebastian Ferrari",
         photo: "themes/dcfloripa/img/sebas.jpg",
         bio: "Desenvolvedor Web Drupal desde 2005. Especializado em criação e consultoria de portais de muita audiência e com grande quantidade de conteúdo usando Drupal como CMS e Framework. Membro da comunidade Drupal desde 2009 como \"Organization Member\", onde contribui com módulos e patches para melhorar ou corrigir módulos de outros contribuidores.",
@@ -193,7 +205,11 @@ module.exports = {
           description: "",
           time: "16/11 - 15h às 18h"
         }
-      }
+      },
+      {
+        name: "Encerramento",
+        time: "16/11 - 19h"
+      },
     ],
 
     // List of Sponsors
