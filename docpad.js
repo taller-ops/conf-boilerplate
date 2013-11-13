@@ -130,7 +130,7 @@ module.exports = {
         },
         presentation: {
           title: "Entity API, drupal do jeito certo",
-          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
+          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo. Pre-requisitos: Notebook/Laptop",
           time: "15/11 - 15h às 18h"
         }
       },
@@ -202,7 +202,7 @@ module.exports = {
         },
         presentation: {
           title: "Desenvolvimento Drupal em equipe",
-          description: "",
+          description: "A criação de um site com Drupal, pode ser feita por um “drupaleiro” com o mínimo de processos para publicar novas funcionalidades ou melhorias... tudo bem! Mas, o que acontece quando trabalhamos com um time com diferentes skills, por exemplo, um front-end, dois devs de backend e um tester? Aí coisa pode ficar feia, então, se você ou seu time, gasta mais tempo tendo que lidar com problemas como, aparente perda de funcionalidades, problemas que surgem “do nada”, publicação de novas funcionalidades em um site já em produção... sem contar a manutenção de longo prazo, que fica quase impossível de manter. Aprenda a implementar alguns processos e utilização de ferramentas disponíveis que ajudam a garantir a eficiência do time, entregando código de qualidade. Pre-requisitos: Notebook/Laptop com GIT instalado.",
           time: "16/11 - 15h às 18h"
         }
       },
