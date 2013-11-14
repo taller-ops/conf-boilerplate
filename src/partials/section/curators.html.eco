@@ -1,0 +1,11 @@
+<h2 class="section-title"><%= @labels['curators'] %></h2>
+<ul class="curators-list">
+
+<% for curator in @curators: %>
+  <li class="curator-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= curator.url %>" class="curator-logo partner-link" itemprop="url">
+      <img src="<%= curator.logo %>" alt="<%= curator.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+</ul>

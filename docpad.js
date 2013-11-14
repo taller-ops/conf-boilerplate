@@ -47,7 +47,8 @@ module.exports = {
       'schedule',
       // 'sponsors',
       'contact',
-      'partners'
+      'partners',
+      'curators'
     ],
 
     // Labels which you can translate to other languages
@@ -57,7 +58,8 @@ module.exports = {
       speakers: "Palestrantes",
       schedule: "Programação",
       sponsors: "Patrocínio",
-      partners: "Realização",
+      partners: "Parceiros",
+      curators: "Realização",
       contact: "Contato",
       time: "Horário",
       slot: "Slot",
@@ -223,6 +225,15 @@ module.exports = {
 
     // List of Partners
     partners: [
+      {
+        name: "SOLISC",
+        logo: "themes/dcfloripa/img/logo_solisc.png",
+        url: "http://solisc.org.br/"
+      }
+    ],
+
+    // List of Curators
+    curators: [
       {
         name: "Taller",
         logo: "themes/dcfloripa/img/taller_logo.png",
