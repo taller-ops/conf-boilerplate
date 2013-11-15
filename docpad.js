@@ -107,21 +107,6 @@ module.exports = {
         time: "15/11 - 17h"
       },
       {
-        name: "Leandro Nunes",
-        photo: "themes/dcfloripa/img/leandro.jpg",
-        bio: "Trabalha com web há longos anos, é entusiasta de software livre e é apaixonado por drupal. Já minitrou palestras em Drupalcamps pela américa latina, e contribui com a comunidade Drupal através de módulos, patches e traduções. Santista fanático, gosta de video games e de programar.",
-        company: "Itelios",
-        link: {
-          href: "https://twitter.com/lnunesbr",
-          text: "@lnunesbr"
-        },
-        presentation: {
-          title: "Cache no Drupal",
-          description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
-          time: "15/11 - 17h30"
-        }
-      },
-      {
         name: "Rafael Caceres",
         photo: "themes/dcfloripa/img/rafael.png",
         bio: "Graduado em ciências da computação, trabalha com web desde 2001 e com Drupal, desde 2008. Evangelizador Lean e Ágil, é Co-Fundador e Diretor de Estratégias da Taller. Desenvolvedor e consultor, trabalhou em alguns dos maiores sites brasileiros de Drupal.",
@@ -131,8 +116,23 @@ module.exports = {
           text: "@rafaelcaceres"
         },
         presentation: {
-          title: "Entity API, drupal do jeito certo",
-          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo. Pre-requisitos: Notebook/Laptop",
+          title: "Introdução a Entities",
+          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
+          time: "15/11 - 17h30"
+        }
+      },
+      {
+        name: "Renato Vasconcellos",
+        photo: "themes/dcfloripa/img/revagomes.jpg",
+        bio: "Publicitário formado pela PUCRS, técnico em informática, Ilustrador amador, web designer por hobby, multi-instrumentista, vegetariano e preocupado com o planeta, os animais e as pessoas. Desde 2007 trabalha com desenvolvimento para web com competências em várias áreas de atuação. Focado em desenvolvimento de aplicações web baseadas em Drupal desde 2008, trabalhou em projetos para grandes empresas brasileiras e hoje dedica boa parte do seu tempo livre para contribuir para o fortalecimento da comunidade Drupal no Brasil e na América Latina.",
+        company: "Taller",
+        link: {
+          href: "http://github.com/revagomes",
+          text: "@revagomes"
+        },
+        presentation: {
+          title: "Code Sprint - Give back!",
+          description: "Neste espaço vamos contribuir com patches para o Drupal. Será feita uma introdução sobre como postar patches no drupal.org e então vamos escolher as issues para resolvermos. Pre-requisitos: Notebook/Laptop",
           time: "15/11 - 15h às 18h"
         }
       },
@@ -171,12 +171,12 @@ module.exports = {
         presentation: {
           title: "Live Test",
           description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
-          time: "16/11 - 15h30"
+          time: "16/11 - 15h"
         }
       },
       {
         name: "Coffee-break",
-        time: "16/11 - 17h"
+        time: "16/11 - 16h"
       },
       {
         name: "Vinicius Freitas",
@@ -190,7 +190,37 @@ module.exports = {
         presentation: {
           title: "Proximity Search com Drupal, Search API, Solr e Google Places",
           description: "",
+          time: "16/11 - 16h30"
+        }
+      },
+      {
+        name: "Leandro Nunes",
+        photo: "themes/dcfloripa/img/leandro.jpg",
+        bio: "Trabalha com web há longos anos, é entusiasta de software livre e é apaixonado por drupal. Já minitrou palestras em Drupalcamps pela américa latina, e contribui com a comunidade Drupal através de módulos, patches e traduções. Santista fanático, gosta de video games e de programar.",
+        company: "Itelios",
+        link: {
+          href: "https://twitter.com/lnunesbr",
+          text: "@lnunesbr"
+        },
+        presentation: {
+          title: "Cache no Drupal",
+          description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
           time: "16/11 - 17h30"
+        }
+      },
+      {
+        name: "Rafael Caceres",
+        photo: "themes/dcfloripa/img/rafael.png",
+        bio: "Graduado em ciências da computação, trabalha com web desde 2001 e com Drupal, desde 2008. Evangelizador Lean e Ágil, é Co-Fundador e Diretor de Estratégias da Taller. Desenvolvedor e consultor, trabalhou em alguns dos maiores sites brasileiros de Drupal.",
+        company: "Taller",
+        link: {
+          href: "http://github.com/rafaelcaceres",
+          text: "@rafaelcaceres"
+        },
+        presentation: {
+          title: "Workshop - Entity API, drupal do jeito certo",
+          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo. Pre-requisitos: Notebook/Laptop",
+          time: "16/11 - 15h às 18h"
         }
       },
       {
@@ -203,7 +233,7 @@ module.exports = {
           text: "@sebas5384"
         },
         presentation: {
-          title: "Desenvolvimento Drupal em equipe",
+          title: "Workshop - Desenvolvimento Drupal em equipe",
           description: "A criação de um site com Drupal, pode ser feita por um “drupaleiro” com o mínimo de processos para publicar novas funcionalidades ou melhorias... tudo bem! Mas, o que acontece quando trabalhamos com um time com diferentes skills, por exemplo, um front-end, dois devs de backend e um tester? Aí coisa pode ficar feia, então, se você ou seu time, gasta mais tempo tendo que lidar com problemas como, aparente perda de funcionalidades, problemas que surgem “do nada”, publicação de novas funcionalidades em um site já em produção... sem contar a manutenção de longo prazo, que fica quase impossível de manter. Aprenda a implementar alguns processos e utilização de ferramentas disponíveis que ajudam a garantir a eficiência do time, entregando código de qualidade. Pre-requisitos: Notebook/Laptop com GIT instalado.",
           time: "16/11 - 15h às 18h"
         }
