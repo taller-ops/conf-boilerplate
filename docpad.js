@@ -88,17 +88,17 @@ module.exports = {
         }
       },
       {
-        name: "Rodrigo Panchniack",
-        photo: "themes/dcfloripa/img/rodrigo.jpg",
-        bio: "Coder desde os 8 anos de idade e aprendiz errátido de Perl e Drupal. Bacharel em Filosofia (2003) e Mestre em Linguística (2005) pela Universidade Federal de Santa Catarina. Foi estagiário de doutorado no Grupo de Computação do Conhecimento Léxico-gramatical da Universidade de Lisboa (2006-2007) e professor em cursos públicos e privados, para graduação e pós. Gosta dos coelhos, das palavras e da expressão back end, no bom sentido. De vez em quando, despeja códigos no drupal.org e no cpan.org.",
-        company: "Taller",
+        name: "Handrus Stephan Nogueira",
+        photo: "themes/dcfloripa/img/handrus.jpg",
+        bio: "Apaixonado por web e open-source, trabalha com suas duas paixões a 10 anos sendo 6 deles com metodologias ágeis.Evangelista de testes automatizados, Drupal e de metodologias ágeis atualmente trabalha como Arquiteto de Softwares na CI&T, empresa Brasileira com presença global.",
+        company: "Ci&T",
         link: {
-          href: "http://www.cce.ufsc.br/~fernandesrp/",
-          text: "pagina pessoal"
+          href: "http://twitter.com/handrus",
+          text: "@handrus"
         },
         presentation: {
-          title: "Live Test",
-          description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
+          title: "Testes de performance",
+          description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
           time: "15/11 - 15h30"
         }
       },
@@ -160,17 +160,17 @@ module.exports = {
         }
       },
       {
-        name: "Handrus Stephan Nogueira",
-        photo: "themes/dcfloripa/img/handrus.jpg",
-        bio: "Apaixonado por web e open-source, trabalha com suas duas paixões a 10 anos sendo 6 deles com metodologias ágeis.Evangelista de testes automatizados, Drupal e de metodologias ágeis atualmente trabalha como Arquiteto de Softwares na CI&T, empresa Brasileira com presença global.",
-        company: "Ci&T",
+        name: "Rodrigo Panchniack",
+        photo: "themes/dcfloripa/img/rodrigo.jpg",
+        bio: "Coder desde os 8 anos de idade e aprendiz errátido de Perl e Drupal. Bacharel em Filosofia (2003) e Mestre em Linguística (2005) pela Universidade Federal de Santa Catarina. Foi estagiário de doutorado no Grupo de Computação do Conhecimento Léxico-gramatical da Universidade de Lisboa (2006-2007) e professor em cursos públicos e privados, para graduação e pós. Gosta dos coelhos, das palavras e da expressão back end, no bom sentido. De vez em quando, despeja códigos no drupal.org e no cpan.org.",
+        company: "Taller",
         link: {
-          href: "http://twitter.com/handrus",
-          text: "@handrus"
+          href: "http://www.cce.ufsc.br/~fernandesrp/",
+          text: "pagina pessoal"
         },
         presentation: {
-          title: "Testes de performance",
-          description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
+          title: "Live Test",
+          description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
           time: "16/11 - 15h30"
         }
       },
