@@ -84,7 +84,7 @@ module.exports = {
         presentation: {
           title: "Drupal Zero - Como fazer um blog ou site institucional sem saber programar!",
           description: "Voltada para quem não conhece o Drupal, a palestra aborda os conceitos primários, o que é, como funciona, requisitos para instalação e uso e estrutura de arquivos. Durante a apresentação é feito um site institucional, com blog e formulário de contato, de maneira interativa, onde os participantes têm a oportunidade de aprender, com a mão na massa, a fazer o site sem precisar saber programação.",
-          time: "15/11 - 14h"
+          time: "15/11 - 14h30"
         }
       },
       {
@@ -99,12 +99,12 @@ module.exports = {
         presentation: {
           title: "Testes de performance",
           description: "Qual a diferença entre testes de stress e carga? Como posso planejar meus testes de performance? Que ferramentas utilizar para verificar a performance do meu site? E como desenvolver com performance em mente? Nessa palestra essas perguntas serão discutidas, e algumas abordagens demonstradas. Um hands-on com muita discussão.",
-          time: "15/11 - 15h30"
+          time: "15/11 - 16h"
         }
       },
       {
         name: "Coffee-break",
-        time: "15/11 - 17h"
+        time: "15/11 - 17h30"
       },
       {
         name: "Rafael Caceres",
@@ -118,7 +118,7 @@ module.exports = {
         presentation: {
           title: "Introdução a Entities",
           description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo.",
-          time: "15/11 - 17h30"
+          time: "15/11 - 18h"
         }
       },
       {
