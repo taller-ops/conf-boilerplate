@@ -156,7 +156,7 @@ module.exports = {
         presentation: {
           title: "MailMaid: integrando email e a Web para uma colaboração ágil.",
           description: "MailMaid é uma distribuição Drupal que integra email e a Web para facilitar a colaboração. A vantagem do email é que ele é um meio de comunicação extremamente popular e fácil de usar. Porém, é difícil gerenciar um projeto via email, principalmente quanto existem diversas threads e pessoas. É neste ponto que a integração com a Web torna-se vantajosa.",
-          time: "16/11 - 14h"
+          time: "16/11 - 14h30"
         }
       },
       {
@@ -171,12 +171,12 @@ module.exports = {
         presentation: {
           title: "Live Test",
           description: "A medida que o projeto cresce, novas funcionalidades podem prejudicar as anteriores. Para avançar com segurança, é necessário realizar testes de regressão, mas fazer isso manualmente é tão arriscado quando a roleta russa. Por isso, esta palestra apresenta o Self Test, um módulo Drupal infalível para a automatização de testes, com base em gherkin, watir, git hook e ruby.",
-          time: "16/11 - 15h"
+          time: "16/11 - 15h30"
         }
       },
       {
         name: "Coffee-break",
-        time: "16/11 - 16h"
+        time: "16/11 - 16h30"
       },
       {
         name: "Vinicius Freitas",
@@ -190,7 +190,7 @@ module.exports = {
         presentation: {
           title: "Proximity Search com Drupal, Search API, Solr e Google Places",
           description: "",
-          time: "16/11 - 16h30"
+          time: "16/11 - 17h"
         }
       },
       {
@@ -205,22 +205,7 @@ module.exports = {
         presentation: {
           title: "Cache no Drupal",
           description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
-          time: "16/11 - 17h30"
-        }
-      },
-      {
-        name: "Rafael Caceres",
-        photo: "themes/dcfloripa/img/rafael.png",
-        bio: "Graduado em ciências da computação, trabalha com web desde 2001 e com Drupal, desde 2008. Evangelizador Lean e Ágil, é Co-Fundador e Diretor de Estratégias da Taller. Desenvolvedor e consultor, trabalhou em alguns dos maiores sites brasileiros de Drupal.",
-        company: "Taller",
-        link: {
-          href: "http://github.com/rafaelcaceres",
-          text: "@rafaelcaceres"
-        },
-        presentation: {
-          title: "Workshop - Entity API, drupal do jeito certo",
-          description: "Entity é a abstração de conteúdo que foi introduzida no drupal 7. Essa abstração permite que fields sejam anexados somente a bundles, como no drupal 6, mas a qualquer entity. E isso não é tudo. Esse workshop visa dar uma introdução básica ao conceito de Entity, desde o trabalho com Entities do core até a criação de nossas próprias. Além disso, será mostrado como estender as classes e controllers das entities, como criar interfaces administrativas rápido é fácil, como criar visualizações e como ter um acesso mais orientado a objetos a isso tudo. Pre-requisitos: Notebook/Laptop",
-          time: "16/11 - 15h às 18h"
+          time: "16/11 - 18h"
         }
       },
       {
@@ -235,12 +220,28 @@ module.exports = {
         presentation: {
           title: "Workshop - Desenvolvimento Drupal em equipe",
           description: "A criação de um site com Drupal, pode ser feita por um “drupaleiro” com o mínimo de processos para publicar novas funcionalidades ou melhorias... tudo bem! Mas, o que acontece quando trabalhamos com um time com diferentes skills, por exemplo, um front-end, dois devs de backend e um tester? Aí coisa pode ficar feia, então, se você ou seu time, gasta mais tempo tendo que lidar com problemas como, aparente perda de funcionalidades, problemas que surgem “do nada”, publicação de novas funcionalidades em um site já em produção... sem contar a manutenção de longo prazo, que fica quase impossível de manter. Aprenda a implementar alguns processos e utilização de ferramentas disponíveis que ajudam a garantir a eficiência do time, entregando código de qualidade. Pre-requisitos: Notebook/Laptop com GIT instalado.",
-          time: "16/11 - 15h às 18h"
+          time: "16/11 - 19h às 21h"
         }
       },
       {
+        name: "Rafael Caceres",
+        photo: "themes/dcfloripa/img/rafael.png",
+        bio: "Graduado em ciências da computação, trabalha com web desde 2001 e com Drupal, desde 2008. Evangelizador Lean e Ágil, é Co-Fundador e Diretor de Estratégias da Taller. Desenvolvedor e consultor, trabalhou em alguns dos maiores sites brasileiros de Drupal.",
+        company: "Taller",
+        link: {
+          href: "http://github.com/rafaelcaceres",
+          text: "@rafaelcaceres"
+        },
+        presentation: {
+          title: "Workshop - Desenvolvimento Drupal em equipe",
+          description: "A criação de um site com Drupal, pode ser feita por um “drupaleiro” com o mínimo de processos para publicar novas funcionalidades ou melhorias... tudo bem! Mas, o que acontece quando trabalhamos com um time com diferentes skills, por exemplo, um front-end, dois devs de backend e um tester? Aí coisa pode ficar feia, então, se você ou seu time, gasta mais tempo tendo que lidar com problemas como, aparente perda de funcionalidades, problemas que surgem “do nada”, publicação de novas funcionalidades em um site já em produção... sem contar a manutenção de longo prazo, que fica quase impossível de manter. Aprenda a implementar alguns processos e utilização de ferramentas disponíveis que ajudam a garantir a eficiência do time, entregando código de qualidade. Pre-requisitos: Notebook/Laptop com GIT instalado.",
+          time: "16/11 - 19h às 21h"
+        }
+      },
+
+      {
         name: "Encerramento",
-        time: "16/11 - 19h"
+        time: "16/11 - 21h"
       },
     ],
 
