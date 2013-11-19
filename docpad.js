@@ -204,7 +204,7 @@ module.exports = {
         },
         presentation: {
           title: "Cache no Drupal",
-          description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site.",
+          description: "A idéia é demonstrar de maneira geral como o cache do drupal funciona, e algumas dicas e práticas para melhorar o desempenho do seu site. Slides: http://slid.es/leandronunes/drupalcamp-floripa",
           time: "16/11 - 18h"
         }
       },
